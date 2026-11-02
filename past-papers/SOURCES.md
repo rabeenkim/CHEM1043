@@ -15,26 +15,26 @@ The PDF bytes match the browser-downloaded originals; SHA-256 checksums are in `
 
 ## Other catalogue records not retrieved
 
-The following 16 entries displayed `Check holdings` rather than online PDF access in the search results. Their question contents were not inspected. The 2026 second-semester record was also opened and explicitly said that access to its file was restricted; the other entries should not be assumed to have identical restrictions without checking individually.
+The following 16 entries displayed `Check holdings` rather than online PDF access in the search results. Each record was then opened individually and showed a restricted-access notice. Their question contents were not inspected or inferred. See `availability-audit.json` for the checked record IDs, exam dates and stable source URLs; request these papers from the lecturer or the library rather than attempting to bypass the restriction.
 
 | Catalogue year and semester | Record | Retrieval status |
 |---|---|---|
-| 2026 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045317901103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2025 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045224333903414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2025 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045008198503414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2024 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986664103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2023 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986589003414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2024 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986479203414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2023 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986419803414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2022 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986317503414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2019 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985615303414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2018 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985550103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2018 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985518203414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2017 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985480903414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2017 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985446603414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2016 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985420003414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2021 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985970403414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
-| 2016 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985106403414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Not retrieved; excluded from analysis |
+| 2026 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045317901103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2025 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045224333903414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2025 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045008198503414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2024 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986664103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2023 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986589003414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2024 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986479203414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2023 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986419803414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2022 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986317503414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2019 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985615303414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2018 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985550103414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2018 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985518203414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2017 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985480903414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2017 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985446603414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2016 2nd semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985420003414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2021 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985970403414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
+| 2016 1st semester | [HKU ExamBase](https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985106403414&context=L&vid=852JULAC_HKU:HKU&lang=en) | Restricted access; excluded from analysis |
 
 ## Moodle and reproduction notes
 

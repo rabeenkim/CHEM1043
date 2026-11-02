@@ -29,7 +29,7 @@ The collection contains **four verified original PDFs**, dated May 2020, Decembe
 
 This makes the historical topic structure useful for organizing practice, not for forecasting an exact paper. Henry's law, Raoult's law, MO analysis, particle-based solution properties, precipitation boundaries and Gibbs/equilibrium reasoning recur across the retrieved set; the [workflow guide](past-papers/README.md#workflow-frequency) separates row frequency from distinct-paper counts.
 
-**Predictability is limited:** all four accessible papers are open-book exams from 2020–2022, while 16 other ExamBase records remain uncollected. A catalogue listing is not evidence of its questions, and the old open-book rules do not establish the current exam's permitted materials. Newer papers, different teachers and changed assessment conditions could change both format and emphasis.
+**Predictability is limited:** all four accessible papers are open-book exams from 2020–2022, while all 16 other ExamBase records were checked individually and marked restricted access. A catalogue listing is not evidence of its questions, and the old open-book rules do not establish the current exam's permitted materials. Newer papers, different teachers and changed assessment conditions could change both format and emphasis.
 
 ## Study route and repository map
 
@@ -52,6 +52,7 @@ past-papers/
   SOURCES.md              Retrieved papers and unavailable catalogue records
   question-index.json     Question mapping, priority flags and solved status
   exambase-records.json    Catalogue snapshot
+  availability-audit.json Individual restricted-access checks
   papers/                 Four original examination PDFs
 ```
 

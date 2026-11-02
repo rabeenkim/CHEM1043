@@ -1,0 +1,118 @@
+{
+  "checked": "2026-11-02",
+  "method": "Signed-in browser: individual full-display record pages; restricted notices observed. No restriction bypass attempted.",
+  "records": [
+    {
+      "record_id": "alma991045317901103414",
+      "exam_date": "2026-05-12",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045317901103414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991045224333903414",
+      "exam_date": "2025-12-11",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045224333903414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991045008198503414",
+      "exam_date": "2025-05-16",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991045008198503414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044986664103414",
+      "exam_date": "2024-05-14",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986664103414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044986589003414",
+      "exam_date": "2023-05-10",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986589003414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044986479203414",
+      "exam_date": "2024-12-13",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986479203414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044986419803414",
+      "exam_date": "2023-12-20",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986419803414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044986317503414",
+      "exam_date": "2022-12-14",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986317503414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985615303414",
+      "exam_date": "2019-05-07",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985615303414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985550103414",
+      "exam_date": "2018-05-18",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985550103414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985518203414",
+      "exam_date": "2018-12-15",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985518203414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985480903414",
+      "exam_date": "2017-05-20",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985480903414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985446603414",
+      "exam_date": "2017-12-11",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985446603414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985420003414",
+      "exam_date": "2016-05-09",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985420003414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985970403414",
+      "exam_date": "2021-12-11",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985970403414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    },
+    {
+      "record_id": "alma991044985106403414",
+      "exam_date": "2016-12-08",
+      "status": "restricted",
+      "notice_detected": "Restricted access",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985106403414&context=L&vid=852JULAC_HKU:HKU&lang=en"
+    }
+  ]
+}

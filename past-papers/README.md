@@ -6,7 +6,7 @@ Start with a representative question, discover the missing step, consult only th
 
 The guide maps all six question blocks in each of four retrieved papers: May 2020, December 2020, May 2021 and May 2022. All four are two-hour, 100-mark, open-book examinations with six compulsory questions. Their format is historical evidence, not authorization to use notes in your current examination. See [sources and unavailable records](SOURCES.md) for the source record of each paper.
 
-ExamBase returned 20 course records. Four showed online PDF access and were retrieved; 16 other records remain uncollected. No question descriptions or frequencies were inferred for those missing papers. No past-paper PDF was linked on the inspected Moodle course page.
+ExamBase returned 20 course records. Four showed online PDF access and were retrieved; each of the other 16 records was opened and explicitly marked restricted access. No question descriptions or frequencies were inferred for those restricted papers. No past-paper PDF was linked on the inspected Moodle course page.
 
 ## How to use the index
 
