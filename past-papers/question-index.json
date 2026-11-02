@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "as_of": "2026-11-02",
+  "scope": "Four retrieved ExamBase papers. No inaccessible-paper contents inferred.",
+  "counting_rule": "One row is a listed question/subquestion bundle, not necessarily a single printed leaf subpart. Distinct papers are counted once per workflow. Counts are not marks or future probabilities.",
+  "priority_rule": "A representative diagnostic within its workflow; multiple priority rows identify materially different branches. Does not mean solved or predicted.",
+  "papers": [
+    {
+      "id": "2020-May",
+      "date": "2020-05-30",
+      "path": "past-papers/papers/CHEM1043-2020-May.pdf",
+      "exambase_id": "alma991044985890803414",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985890803414&context=L&vid=852JULAC_HKU:HKU&lang=en",
+      "sha256": "e5edfb1090db5d9857c4fabb69a6415cb3e709156116dee24340f94e280f2239",
+      "bytes": 1034026,
+      "question_marks": [
+        16,
+        16,
+        21,
+        17,
+        18,
+        12
+      ],
+      "format": "2 hours; open book; six compulsory questions; 100 marks"
+    },
+    {
+      "id": "2020-Dec",
+      "date": "2020-12-08",
+      "path": "past-papers/papers/CHEM1043-2020-Dec.pdf",
+      "exambase_id": "alma991044985861803414",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985861803414&context=L&vid=852JULAC_HKU:HKU&lang=en",
+      "sha256": "56502e22e7a282da9b6448e8d1f6678c062ef75f87ef786a93d7c18d6514b6da",
+      "bytes": 850010,
+      "question_marks": [
+        17,
+        18,
+        19,
+        16,
+        18,
+        12
+      ],
+      "format": "2 hours; open book; six compulsory questions; 100 marks"
+    },
+    {
+      "id": "2021-May",
+      "date": "2021-05-18",
+      "path": "past-papers/papers/CHEM1043-2021-May.pdf",
+      "exambase_id": "alma991044985719203414",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044985719203414&context=L&vid=852JULAC_HKU:HKU&lang=en",
+      "sha256": "06ae0d95e7e754adff668af7726a3833be4eb508cac248df3714138d4a72a224",
+      "bytes": 6101202,
+      "question_marks": [
+        17,
+        19,
+        18,
+        16,
+        18,
+        12
+      ],
+      "format": "2 hours; open book; six compulsory questions; 100 marks"
+    },
+    {
+      "id": "2022-May",
+      "date": "2022-05-14",
+      "path": "past-papers/papers/CHEM1043-2022-May.pdf",
+      "exambase_id": "alma991044986291203414",
+      "source_url": "https://julac-hku.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991044986291203414&context=L&vid=852JULAC_HKU:HKU&lang=en",
+      "sha256": "88acd2118cc88f30a00fd3aadff0db8545a2afdaad0181e5aac9f0e0f3061196",
+      "bytes": 5112614,
+      "question_marks": [
+        12,
+        18,
+        17,
+        17,
+        17,
+        19
+      ],
+      "format": "2 hours; open book; six compulsory questions; 100 marks"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W01",
+      "title": "Gas measurements → moles → composition or stoichiometry",
+      "lecture": "Topic 1; Tutorial 1",
+      "recognition": "P, V and T; gas density or flask masses; wet gas; mixture composition; a decomposing solid.",
+      "prerequisites": "Moles, balanced equations, empirical formulas, mole fractions and Kelvin temperatures.",
+      "method": [
+        "Write what the measured pressure represents. For gas collected over water, first use \\(P_{gas}=P_{total}-P_{H_2O}\\). Convert all units to match the chosen gas constant.",
+        "Use \\(n=PV/(RT)\\). For a fixed amount, use \\(P_1V_1/T_1=P_2V_2/T_2\\). For molar mass use \\(M=mRT/(PV)\\), with vapour mass equal to filled-flask mass minus empty-flask mass.",
+        "For composition, take a 100 g basis, turn mass percentages into mole ratios, obtain an empirical formula, and compare its mass with the gas-derived molar mass. For a mixture, calculate each component's moles, then \\(P_i=x_iP_{total}\\).",
+        "For a gas-producing reaction, use the balanced mole ratio before converting to solid mass or percentage. Keep the measured volume separate from a volume requested at different conditions."
+      ],
+      "traps": "Mass percentages are not mole fractions. Do not use °C in gas equations or blindly subtract water vapour when the question does not describe wet collection.",
+      "check": "Check that partial pressures sum to the total, formula multipliers are near integers, and a mass percentage lies between 0 and 100."
+    },
+    {
+      "id": "W02",
+      "title": "Ideal-gas assumptions → real-gas corrections",
+      "lecture": "Topic 1",
+      "recognition": "Kinetic-molecular postulates; high pressure or low temperature; van der Waals constants a and b.",
+      "prerequisites": "Ideal-gas equation and the physical meaning of intermolecular attractions and finite molecular volume.",
+      "method": [
+        "List the idealizations relevant to the question: negligible molecular volume, negligible intermolecular forces, random motion and elastic collisions.",
+        "At high pressure, excluded molecular volume becomes important; at low temperature, attractions become important relative to kinetic energy.",
+        "Use \\((P+a n^2/V^2)(V-nb)=nRT\\). If finding temperature, rearrange to \\(T=(P+a n^2/V^2)(V-nb)/(nR)\\).",
+        "Calculate the ideal-gas result separately and explain the discrepancy in terms of the two corrections, rather than assuming all real gases always have pressure below the ideal value."
+      ],
+      "traps": "The pressure correction uses n²/V², not n/V; a and b must match the pressure and volume units. Avoid claiming one correction dominates at every condition.",
+      "check": "As a and b approach zero, the equation must reduce to PV=nRT; V must exceed nb."
+    },
+    {
+      "id": "W03",
+      "title": "Temperature and mass → speed, energy or effusion",
+      "lecture": "Topic 1",
+      "recognition": "rms speed; kinetic energy per atom; two gases at the same temperature; equal-time effusion.",
+      "prerequisites": "Distinguish molar mass from molecular mass and energy per mole from energy per molecule.",
+      "method": [
+        "For rms speed use \\(u_{rms}=\\sqrt{3RT/M}\\), with M in kg mol⁻¹ when R is in SI units. At equal temperature, the speed ratio is the inverse square-root mass ratio.",
+        "Average translational energy per molecule is \\(3k_BT/2\\); per mole it is \\(3RT/2\\). Equal temperature implies equal average translational kinetic energy, not equal speed.",
+        "For an effusion comparison at equal conditions use \\(r_A/r_B=\\sqrt{M_B/M_A}\\). In equal times, replace rates by escaped amounts, and convert molecule counts to moles when requested.",
+        "For equal speeds at different temperatures, set T/M equal for the two gases and solve the ratio before inserting numbers."
+      ],
+      "traps": "Do not invert Graham's ratio or use molar mass in g mol⁻¹ in an SI speed calculation.",
+      "check": "A lighter gas must move or effuse faster at the same temperature."
+    },
+    {
+      "id": "W04",
+      "title": "Electron count → MO diagram → bond and magnetic properties",
+      "lecture": "Topic 2; Tutorial 2",
+      "recognition": "Diatomic molecules or ions; draw an MO diagram; compare bond order, magnetism or bond length; explain MO versus VB.",
+      "prerequisites": "Atomic valence configurations, ion charges, Pauli exclusion and Hund's rule.",
+      "method": [
+        "Count valence electrons for each species, adding electrons for a negative charge and subtracting for a positive charge. State whether 1s/core orbitals are omitted.",
+        "Choose the appropriate MO energy ordering. The relative σ2p and π2p ordering changes across the second period; heteronuclear atomic orbital energies are unequal. Label atomic and molecular sides, energy direction, and bonding/antibonding orbitals.",
+        "Fill from low energy upwards using Pauli and Hund. Calculate \\(BO=(N_{bonding}-N_{antibonding})/2\\). Count unpaired electrons for the magnetic property.",
+        "Explain related-species bond-length/strength changes through occupation of bonding or antibonding orbitals. For conceptual questions, contrast localized VB overlap with orbitals delocalized over the molecule, and constructive with destructive overlap."
+      ],
+      "traps": "A single memorized orbital ordering is not valid for every species. Bond order alone is not a universal length ranking across different atom pairs. The 2022 species are NO⁺ and N₂⁺; OCR can corrupt the second label.",
+      "check": "Electron totals must match the charge; paramagnetism requires at least one unpaired electron."
+    },
+    {
+      "id": "W05",
+      "title": "Band occupancy and band gap → electrical conductivity",
+      "lecture": "Topic 2",
+      "recognition": "Metals, silicon, magnesium, semiconductors or the formation of bands.",
+      "prerequisites": "Many atomic orbitals produce closely spaced levels; electrons need accessible empty states.",
+      "method": [
+        "Explain how combining orbitals from many atoms produces bands of closely spaced energy levels.",
+        "Draw occupied and available states: a partly filled band or overlapping bands for a conductor, a small gap for a semiconductor, and a large gap for an insulator.",
+        "Relate conductivity to mobile carriers and accessible states, not merely the number of valence electrons. For Mg, discuss band overlap; for intrinsic semiconductors, discuss thermal excitation across a small gap."
+      ],
+      "traps": "An isolated-atom filled shell is not sufficient to declare a solid insulating. Label valence band, conduction band and gap on the sketch.",
+      "check": "Your drawing must explain where a promoted or moving electron can go."
+    },
+    {
+      "id": "W06",
+      "title": "Gas solubility and partial pressure → Henry's-law calculation",
+      "lecture": "Topic 3; Tutorial 3",
+      "recognition": "Dissolved oxygen/nitrogen/carbon dioxide; gas volume per water volume; minimum atmospheric pressure.",
+      "prerequisites": "Molarity, partial pressure and ideal-gas conversion.",
+      "method": [
+        "Read the convention and units of the given Henry constant. For \\(c=k_Hp\\), kH has concentration/pressure units; some sources use its reciprocal.",
+        "Convert gas-volume solubility into moles using the temperature and pressure at which that gas volume is reported, then divide by solution volume. Convert mg L⁻¹ to mol L⁻¹ when needed.",
+        "Use the solute gas's partial pressure, not total air pressure. At fixed temperature, \\(c_2/c_1=p_2/p_1\\); in air \\(p_i=y_iP\\).",
+        "For gas released on heating, calculate dissolved moles before and after using the relevant solubilities, subtract them, then use PV=nRT for the released gas at its stated measurement conditions."
+      ],
+      "traps": "Do not confuse the solution temperature with the reporting conditions of a quoted gas volume. Henry's constant changes with temperature. The reporting pressure in 2022 Q3(a) is not explicitly stated; record any assumption rather than inventing certainty.",
+      "check": "At the same temperature a lower partial pressure must give a lower dissolved concentration."
+    },
+    {
+      "id": "W07",
+      "title": "Vapour pressure → mole fraction → concentration or molar mass",
+      "lecture": "Topic 3",
+      "recognition": "A nonvolatile solute; solvent vapour-pressure lowering; an unknown molar mass.",
+      "prerequisites": "Moles and mole fractions, not mass fractions.",
+      "method": [
+        "For an ideal solution containing a nonvolatile solute, use \\(P=x_{solvent}P^*\\). If solving an inverse problem, obtain x_solvent from P/P* first.",
+        "Convert the solvent mass to moles. Then \\(n_{solute}=n_{solvent}(1/x_{solvent}-1)\\), followed by \\(M_{solute}=m_{solute}/n_{solute}\\).",
+        "For a forward problem, calculate both mole amounts, form x_solvent, and multiply by the pure-solvent vapour pressure. Vapour-pressure lowering is P*−P."
+      ],
+      "traps": "Mass fraction is not mole fraction. Both volatile components require a two-component Raoult calculation, not the nonvolatile-solute shortcut.",
+      "check": "For a nonvolatile solute in this ideal model, 0<P<P* and mole fractions sum to 1."
+    },
+    {
+      "id": "W08",
+      "title": "Particle concentration → freezing, boiling or osmotic pressure",
+      "lecture": "Topic 3",
+      "recognition": "Freezing-point depression; boiling-point elevation; osmotic pressure; particle-based rankings.",
+      "prerequisites": "Molality uses kilograms of solvent; molarity uses litres of solution; dissociation changes particle counts.",
+      "method": [
+        "Choose the branch: \\(\\Delta T_f=iK_fm\\), \\(\\Delta T_b=iK_bm\\), or \\(\\Pi=iCRT\\). Write the original pure-solvent temperature before applying the change.",
+        "For an unknown molar mass, infer molality or molarity from the measured property, then moles and M=mass/moles. For a molecular formula, compare the inferred molar mass with the elemental unit mass.",
+        "For ranking, compare i×molality under the question's dissociation assumptions. The largest particle molality gives the lowest freezing point.",
+        "For mass-percent solutions, take a 100 g solution basis and distinguish solvent mass from total solution mass."
+      ],
+      "traps": "A freezing point goes down, not up. Use consistent pressure units in Π=CRT. Do not assume complete dissociation unless appropriate or explicitly stated.",
+      "check": "An inferred i should be physically plausible; a non-electrolyte has i≈1 in the ideal dilute model."
+    },
+    {
+      "id": "W09",
+      "title": "Dissolution stoichiometry and pH → solubility",
+      "lecture": "Topic 4, part 1",
+      "recognition": "Ksp, molar solubility, common ions, fixed pH, or whether acid increases solubility.",
+      "prerequisites": "Balanced dissolution equations, equilibrium products and Kw.",
+      "method": [
+        "Write the dissolution equation before the Ksp expression. For a salt M_aX_b with no pre-existing ions, use [M]=a s and [X]=b s, so \\(K_{sp}=(as)^a(bs)^b\\).",
+        "With a common ion, include its initial concentration and the dissolution contribution before making a small-s approximation. For fixed pH obtain [H⁺], then [OH⁻] from Kw when required.",
+        "For hydroxides use their correct powers: for M(OH)₂, Ksp=[M²⁺][OH⁻]². Solubility s is not the same quantity or unit as Ksp.",
+        "For qualitative acid effects, ask whether H⁺ consumes the dissolved anion or ligand and thereby drives dissolution. Compare the anion's acid-base chemistry rather than using a blanket rule that all salts dissolve in acid."
+      ],
+      "traps": "Do not set every dissolved-ion concentration equal to s. Check the approximation after calculating s and do not treat a buffered pH as changing freely.",
+      "check": "Substitute the final ion concentrations back into Ksp; a common ion normally decreases solubility in the simple model."
+    },
+    {
+      "id": "W10",
+      "title": "Precipitation boundary → separation, amount or buffer requirement",
+      "lecture": "Topic 4, part 1; class-practice answers",
+      "recognition": "Mix solutions; precipitate first; separate ions; maximum reagent before a second salt appears; suppress precipitation with a buffer.",
+      "prerequisites": "Dilution, ionic-product expressions, stoichiometric material balances and basic buffer equilibria.",
+      "method": [
+        "After mixing, calculate ion amounts and divide by the total volume. Form Qsp and compare it with Ksp: precipitation is favoured when Qsp>Ksp.",
+        "For selective precipitation, set Qsp=Ksp separately for each salt to obtain its threshold reagent-ion concentration. Compare thresholds, not bare Ksp values of differently stoichiometric salts.",
+        "At the onset of the unwanted precipitate, use its threshold reagent concentration in the first salt's Ksp to find how much target ion remains.",
+        "For the amount precipitated, impose material balances with a precipitated amount variable and the final Ksp condition. A limiting-reagent estimate may need an equilibrium residual correction.",
+        "For a buffer preventing hydroxide precipitation, derive the maximum [OH⁻] from Ksp and the diluted metal concentration, then use the NH₃/NH₄⁺ equilibrium to find required NH₄⁺. Convert ion moles to salt moles using the salt's stoichiometry."
+      ],
+      "traps": "Do not forget dilution or assume 'no precipitate' merely because a salt is sparingly soluble. A buffer-control question adds an acid-base step rather than replacing the Ksp threshold.",
+      "check": "The proposed separation window must exist; verify Qsp for both salts at your selected reagent concentration."
+    },
+    {
+      "id": "W11",
+      "title": "Complex formation → free metal-ion concentration",
+      "lecture": "Topic 4, part 2",
+      "recognition": "A metal in excess NH₃; large formation constant; free uncomplexed ion requested.",
+      "prerequisites": "Formation equilibrium, ligand stoichiometry and mass balances.",
+      "method": [
+        "Write \\(M+qL\\rightleftharpoons ML_q\\) and \\(K_f=[ML_q]/([M][L]^q)\\). Distinguish total metal from free metal.",
+        "If Kf is large and ligand is in excess, estimate [MLq]≈total metal, but subtract q times the complex concentration from the total ligand concentration.",
+        "Calculate free metal with \\([M]\\approx[ML_q]/(K_f[L]_{free}^q)\\), then check that it is small compared with total metal.",
+        "If solid dissolution and complexation are coupled, add the reactions and multiply their equilibrium constants; solve a single consistent mass balance."
+      ],
+      "traps": "Initial ligand concentration is not necessarily free ligand concentration. The ligand exponent is q, and adding a metal salt does not mean its free-ion concentration equals total metal.",
+      "check": "For 2022 Q4(c), the large-Kf approximation leaves about 1.20−4×0.20=0.40 M free NH₃, not 1.20 M."
+    },
+    {
+      "id": "W12",
+      "title": "Reaction data or K → Gibbs energy → direction and equilibrium",
+      "lecture": "Topic 5, parts 1–2",
+      "recognition": "Tabulated formation data; reaction entropy/enthalpy; K, Q, spontaneity, equilibrium composition or maximum non-expansion work.",
+      "prerequisites": "Balanced reactions, reaction quotients and the distinction between standard and actual conditions.",
+      "method": [
+        "Balance the reaction first. For tabulated quantities use products minus reactants, including every stoichiometric coefficient. Calculate ΔH°, ΔS° or ΔG°f sums as required; convert J and kJ consistently.",
+        "Use \\(\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ=-RT\\ln K\\). For actual conditions, write the dimensionless reaction quotient and use \\(\\Delta G=\\Delta G^\\circ+RT\\ln Q=RT\\ln(Q/K)\\).",
+        "If Q<K the forward direction is favoured; if Q>K the reverse direction is favoured. Pure solids and pure liquids have unit activity and do not appear in Q.",
+        "For final composition set up an ICE/material-balance table and enforce Q=K. A numerical equilibrium constant does not permit setting every species equal.",
+        "Maximum useful non-expansion work delivered by a reversible process at fixed T and P is −ΔG for that process. At an already equilibrated mixture the reaction ΔG is zero; ΔG° need not be zero. State which conditions a work answer assumes."
+      ],
+      "traps": "A positive ΔG° does not prohibit a forward reaction under nonstandard conditions. Do not use Celsius, forget stoichiometric powers, or call −RT ln K the actual ΔG at equilibrium.",
+      "check": "Signs must agree: K>1 implies ΔG°<0; Q=K implies ΔG=0. Be explicit about the terse work wording in 2020 May Q5(ii)."
+    },
+    {
+      "id": "W13",
+      "title": "Specified thermodynamic path → heat, work and entropy",
+      "lecture": "Topic 5, part 1; prerequisite first-law review",
+      "recognition": "Reversible/isothermal gas expansion; heating at constant pressure; q, w, ΔU, ΔH or ΔS.",
+      "prerequisites": "First-law sign convention and heat capacities.",
+      "method": [
+        "State the sign convention: ΔU=q+w with work done on the system positive. An ideal gas's U and H depend only on temperature.",
+        "For reversible isothermal expansion, \\(w=-nRT\\ln(V_2/V_1)\\), q=−w and ΔU=ΔH=0.",
+        "For isothermal ideal-gas entropy change, \\(\\Delta S=nR\\ln(V_2/V_1)\\). For heating at fixed pressure with constant Cp, \\(\\Delta S=nC_{p,m}\\ln(T_2/T_1)\\).",
+        "For a combined ideal-gas state change, a reversible reference path gives \\(\\Delta S=nC_{V,m}\\ln(T_2/T_1)+nR\\ln(V_2/V_1)\\); do not use q/T for an arbitrary irreversible process."
+      ],
+      "traps": "Use natural logarithms and Kelvin. A heat capacity described as molar must be multiplied by n. Reversible and irreversible work are not interchangeable.",
+      "check": "Isothermal expansion has w<0 and ΔS>0; check q+w=0."
+    },
+    {
+      "id": "W14",
+      "title": "Two equilibrium temperatures → van't Hoff enthalpy",
+      "lecture": "Topic 5, part 2",
+      "recognition": "Two K values at different temperatures; compare inferred ΔH° with formation-data ΔH°.",
+      "prerequisites": "Natural logarithms, Kelvin and reaction enthalpy sums.",
+      "method": [
+        "Label (T1,K1) and (T2,K2) explicitly and convert both temperatures to Kelvin.",
+        "Use \\(\\ln(K_2/K_1)=-(\\Delta H^\\circ/R)(1/T_2-1/T_1)\\) and solve for ΔH°.",
+        "Independently calculate the reaction enthalpy from formation data and stoichiometric coefficients. Compare the two estimates and the assumption that ΔH° is approximately constant over the temperature range."
+      ],
+      "traps": "Do not mix log10 with ln or invert only one ratio. Report the temperature interval and the constant-enthalpy assumption.",
+      "check": "If K decreases as temperature rises, the inferred reaction enthalpy should be negative."
+    },
+    {
+      "id": "W15",
+      "title": "Balanced cell reaction ↔ E° ↔ ΔG° and K",
+      "lecture": "Topic 6 syllabus; electrode-potential reference",
+      "recognition": "A voltaic cell, standard reduction potentials, theoretical battery voltage, or K from a cell.",
+      "prerequisites": "Oxidation/reduction half-equations and balanced electron transfer.",
+      "method": [
+        "Write both half-reactions as reductions to compare tabulated values. Choose the cathode reduction and reverse the anode reaction; balance electron numbers to obtain n and the full cell equation.",
+        "Use \\(E^\\circ_{cell}=E^\\circ_{cathode}-E^\\circ_{anode}\\). Multiplying a half-equation does not multiply its electrode potential.",
+        "Use \\(\\Delta G^\\circ=-nFE^\\circ\\) and \\(\\ln K=nFE^\\circ/(RT)\\). In the reverse direction, obtain ΔG° from formation data and then E°=−ΔG°/(nF).",
+        "For a cell sketch include the electrodes, solutions, external electron path and ionic connection; electrons flow externally from anode to cathode in a galvanic cell."
+      ],
+      "traps": "Do not confuse the sign of an electrode potential with the electrode's name, or scale volts with reaction coefficients. n is the electron count of the balanced overall reaction.",
+      "check": "A spontaneous standard cell has E°>0, ΔG°<0 and K>1. The silver-zinc cell transfers two electrons per written overall reaction."
+    },
+    {
+      "id": "W16",
+      "title": "Nonstandard concentrations and material balance → Nernst potential",
+      "lecture": "Topic 6 syllabus; electrode-potential reference",
+      "recognition": "Cell notation contains concentrations; potential as a cell runs; find concentration at a specified E.",
+      "prerequisites": "Balanced cell equation, reaction quotient and logarithms.",
+      "method": [
+        "Write and balance the cell reaction in the direction represented by the cell notation, then obtain E° and n.",
+        "Build Q from the balanced reaction, omitting pure solids/liquids. Use \\(E=E^\\circ-(RT/nF)\\ln Q\\), or at 298 K \\(E=E^\\circ-(0.05916/n)\\log_{10}Q\\).",
+        "If the cell runs, update both half-cell compositions using the same reaction extent and the actual solution volumes. State any equal-volume assumption if the paper omits the volumes.",
+        "For an inverse problem first solve for Q from the target E, then combine that ratio with the material balance. Assess spontaneity from the calculated E in the written direction."
+      ],
+      "traps": "Do not use initial Q after the cell has run, invert Q without reversing the reaction, or apply 0.05916 at every temperature.",
+      "check": "As a galvanic cell approaches equilibrium, E tends to zero and Q tends to K."
+    },
+    {
+      "id": "W17",
+      "title": "Molarity and density → molality",
+      "lecture": "Topic 3",
+      "recognition": "A solution is specified by molarity and density but molality is requested.",
+      "prerequisites": "Mass of solution equals density times volume; solvent mass excludes the solute.",
+      "method": [
+        "Take 1.000 L of solution: the molarity directly gives solute moles.",
+        "Multiply density by 1000 mL to obtain solution mass. Subtract solute moles times molar mass to obtain solvent mass.",
+        "Convert solvent mass to kilograms and calculate molality as solute moles per kg solvent."
+      ],
+      "traps": "The 1 L basis is solution volume, not solvent volume. Do not divide by solution mass.",
+      "check": "The inferred solvent mass must be positive and smaller than the total solution mass."
+    },
+    {
+      "id": "W18",
+      "title": "Temperature-dependent solubility → recrystallization explanation",
+      "lecture": "Topic 3",
+      "recognition": "State the purpose and working principle of recrystallization.",
+      "prerequisites": "Solubility varies with temperature; impurities can behave differently.",
+      "method": [
+        "State that the aim is purification of a solid, not chemical conversion.",
+        "Explain dissolving the impure solid in minimal suitable hot solvent, removing insoluble impurities if needed, then cooling to crystallize the desired material.",
+        "Explain why soluble impurities ideally remain in the mother liquor and why some product is lost. Identify the need for a suitable hot/cold solubility contrast."
+      ],
+      "traps": "Do not claim that every impurity is automatically removed or that cooling creates more solute.",
+      "check": "Your explanation must connect purification to differential solubility, not only list laboratory steps."
+    }
+  ],
+  "questions": [
+    {
+      "row": 1,
+      "workflow": "W01",
+      "paper": "2020-May",
+      "question": "Q1(b)(i–iv)",
+      "description": "Four ideal-gas calculations: pressure, volume, mass and amount.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 2,
+      "workflow": "W01",
+      "paper": "2020-Dec",
+      "question": "Q1(a)(i)",
+      "description": "Vapour molar mass from evacuated and filled flask masses.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 3,
+      "workflow": "W01",
+      "paper": "2020-Dec",
+      "question": "Q1(a)(ii)",
+      "description": "A fixed amount of nitrogen changes volume at constant pressure.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 4,
+      "workflow": "W01",
+      "paper": "2021-May",
+      "question": "Q1(a)",
+      "description": "Turn gas-mixture mass composition into partial pressures.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 5,
+      "workflow": "W01",
+      "paper": "2021-May",
+      "question": "Q1(b)",
+      "description": "Correct oxygen collected over water and convert its conditions.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 6,
+      "workflow": "W01",
+      "paper": "2022-May",
+      "question": "Q1(a)",
+      "description": "Combine gas molar mass with elemental composition to identify a molecular formula.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 7,
+      "workflow": "W01",
+      "paper": "2022-May",
+      "question": "Q1(b)",
+      "description": "Find chlorate mass percentage from oxygen evolved on heating.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 8,
+      "workflow": "W02",
+      "paper": "2020-May",
+      "question": "Q1(a)(i–ii)",
+      "description": "Kinetic-molecular postulates and the assumptions that fail at high pressure/low temperature.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 9,
+      "workflow": "W02",
+      "paper": "2020-Dec",
+      "question": "Q1(b)(i–iii)",
+      "description": "Use van der Waals to find temperature, compare the ideal value and explain real-gas behaviour.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 10,
+      "workflow": "W03",
+      "paper": "2021-May",
+      "question": "Q1(c)(i–iii)",
+      "description": "Connect helium energy and speed to oxygen speed and nitrogen temperature.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 11,
+      "workflow": "W03",
+      "paper": "2022-May",
+      "question": "Q1(c)",
+      "description": "Use nitrogen effusion to find the molar amount of hydrogen escaping in the same time.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 12,
+      "workflow": "W04",
+      "paper": "2020-May",
+      "question": "Q2(a)(i–ii)",
+      "description": "Draw B₂ and F₂ diagrams, assign properties, and explain the different MO ordering.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 13,
+      "workflow": "W04",
+      "paper": "2020-Dec",
+      "question": "Q2(a)(i–iii)",
+      "description": "MO diagrams and bond/property comparisons for Be₂⁻, CO and O₂⁺.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 14,
+      "workflow": "W04",
+      "paper": "2021-May",
+      "question": "Q2(a)(i–iv)",
+      "description": "Explain σ/π and bonding/antibonding orbitals, then analyse CN⁻.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 15,
+      "workflow": "W04",
+      "paper": "2022-May",
+      "question": "Q2(a)",
+      "description": "Explain the essential VB-versus-MO description of a covalent bond.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 16,
+      "workflow": "W04",
+      "paper": "2022-May",
+      "question": "Q2(b)(i–iv)",
+      "description": "Draw and compare NO⁺ and N₂⁺ configurations, bond orders, magnetism and lengths.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 17,
+      "workflow": "W05",
+      "paper": "2020-May",
+      "question": "Q2(b)(i–ii)",
+      "description": "Define bands and compare potassium and silicon band structures.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 18,
+      "workflow": "W05",
+      "paper": "2020-Dec",
+      "question": "Q2(b)",
+      "description": "Explain why magnesium conducts using band theory.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 19,
+      "workflow": "W05",
+      "paper": "2021-May",
+      "question": "Q2(b)",
+      "description": "Explain semiconductor conductivity using band theory.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 20,
+      "workflow": "W06",
+      "paper": "2020-May",
+      "question": "Q3(b)",
+      "description": "Use nitrogen's atmospheric partial pressure to scale dissolved molarity.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 21,
+      "workflow": "W06",
+      "paper": "2020-Dec",
+      "question": "Q3(a)(i–ii)",
+      "description": "Convert oxygen volume solubility, raise pressure, then calculate gas expelled on heating.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 22,
+      "workflow": "W06",
+      "paper": "2021-May",
+      "question": "Q3(a)(i–iii)",
+      "description": "Convert a fish-life oxygen threshold to ppm and find minimum oxygen/air pressure.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 23,
+      "workflow": "W06",
+      "paper": "2022-May",
+      "question": "Q3(a–b)",
+      "description": "Convert reported gas solubilities to molarity and scale carbon dioxide to its air partial pressure.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 24,
+      "workflow": "W07",
+      "paper": "2020-May",
+      "question": "Q3(c)",
+      "description": "Find solute molar mass from measured aqueous vapour-pressure lowering.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 25,
+      "workflow": "W07",
+      "paper": "2020-Dec",
+      "question": "Q3(b)",
+      "description": "Calculate water vapour pressure and its lowering for ethylene glycol solution.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 26,
+      "workflow": "W07",
+      "paper": "2021-May",
+      "question": "Q3(b)(i–ii)",
+      "description": "Use ethanol's vapour pressure to infer mole fractions and solute molar mass.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 27,
+      "workflow": "W07",
+      "paper": "2022-May",
+      "question": "Q3(d)",
+      "description": "Calculate vapour pressure of ethanol containing benzoic acid.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 28,
+      "workflow": "W08",
+      "paper": "2020-May",
+      "question": "Q3(d)",
+      "description": "Calculate freezing and boiling points of a 50 mass-percent antifreeze solution.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 29,
+      "workflow": "W08",
+      "paper": "2020-Dec",
+      "question": "Q3(c)",
+      "description": "Find unknown molar mass from osmotic pressure.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 30,
+      "workflow": "W08",
+      "paper": "2021-May",
+      "question": "Q3(c)",
+      "description": "Determine sulfur molar mass and molecular formula from freezing-point depression.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 31,
+      "workflow": "W08",
+      "paper": "2022-May",
+      "question": "Q3(c)",
+      "description": "Rank electrolyte/non-electrolyte freezing points using complete dissociation.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 32,
+      "workflow": "W09",
+      "paper": "2020-May",
+      "question": "Q4(a)",
+      "description": "Find Fe(OH)₃ solubility at a buffered pH.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 33,
+      "workflow": "W09",
+      "paper": "2020-Dec",
+      "question": "Q4(a)(i–iii)",
+      "description": "Compare Mg(OH)₂ solubility in water, MgCl₂ and KOH.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 34,
+      "workflow": "W09",
+      "paper": "2021-May",
+      "question": "Q4(a–b)",
+      "description": "Distinguish solubility from Ksp and calculate common-ion solubilities.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 35,
+      "workflow": "W09",
+      "paper": "2022-May",
+      "question": "Q4(b)",
+      "description": "Explain why CuS and AgCl respond differently to acid.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 36,
+      "workflow": "W10",
+      "paper": "2020-May",
+      "question": "Q4(b)(i–ii)",
+      "description": "State separation criteria and compare CuI/PbI₂ precipitation thresholds.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 37,
+      "workflow": "W10",
+      "paper": "2020-Dec",
+      "question": "Q4(b)",
+      "description": "Test mixed AgNO₃/K₂CrO₄ for precipitation and determine precipitate amount.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 38,
+      "workflow": "W10",
+      "paper": "2021-May",
+      "question": "Q4(c)",
+      "description": "Find ammonium sulfate needed to prevent Mg(OH)₂ precipitation in ammonia.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 39,
+      "workflow": "W10",
+      "paper": "2022-May",
+      "question": "Q4(a)",
+      "description": "Maximise AgBr precipitation without precipitating AgCl.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 40,
+      "workflow": "W11",
+      "paper": "2020-May",
+      "question": "Q4(c)",
+      "description": "Find free copper(II) after dissolving copper nitrate in excess ammonia.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 41,
+      "workflow": "W11",
+      "paper": "2022-May",
+      "question": "Q4(c)",
+      "description": "Find free copper(II) accounting for ammonia consumed in the tetraammine complex.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 42,
+      "workflow": "W12",
+      "paper": "2020-May",
+      "question": "Q5(i–iv)",
+      "description": "Use equilibrium composition to obtain K, discuss work/direction, and solve a new equilibrium composition.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 43,
+      "workflow": "W12",
+      "paper": "2020-Dec",
+      "question": "Q5(a)(i–iv)",
+      "description": "Find ΔS°, ΔH°, ΔG° and K from thermodynamic data.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 44,
+      "workflow": "W12",
+      "paper": "2020-Dec",
+      "question": "Q5(b)(i–ii)",
+      "description": "Relate mercury oxide equilibrium to oxygen pressure and conditions favouring decomposition.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 45,
+      "workflow": "W12",
+      "paper": "2021-May",
+      "question": "Q5(iv)",
+      "description": "Balance silver sulfate precipitation and obtain ΔG° and K from formation data.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 46,
+      "workflow": "W12",
+      "paper": "2022-May",
+      "question": "Q5(c)",
+      "description": "Calculate standard and actual Gibbs energies for N₂O₄ dissociation and infer direction.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 47,
+      "workflow": "W13",
+      "paper": "2022-May",
+      "question": "Q5(a)",
+      "description": "Calculate heat, work and energy changes in reversible isothermal ideal-gas expansion.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 48,
+      "workflow": "W13",
+      "paper": "2022-May",
+      "question": "Q5(b)(i–ii)",
+      "description": "Calculate entropy changes for isothermal expansion and constant-pressure heating.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 49,
+      "workflow": "W14",
+      "paper": "2021-May",
+      "question": "Q5(i–iii)",
+      "description": "Use two Kp values to infer reaction enthalpy and compare with formation-data estimates.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 50,
+      "workflow": "W15",
+      "paper": "2020-May",
+      "question": "Q6(i–v)",
+      "description": "Balance a chromium/vanadium cell and link standard potential, Gibbs energy and K.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 51,
+      "workflow": "W15",
+      "paper": "2021-May",
+      "question": "Q6",
+      "description": "Compute silver-zinc battery voltage from thermodynamic formation data.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 52,
+      "workflow": "W15",
+      "paper": "2022-May",
+      "question": "Q6(a)(i–iii)",
+      "description": "Sketch and analyse a chromium/silver voltaic cell.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 53,
+      "workflow": "W15",
+      "paper": "2022-May",
+      "question": "Q6(b)",
+      "description": "Use cell potentials to find reaction Gibbs energy and assess spontaneity.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 54,
+      "workflow": "W16",
+      "paper": "2020-Dec",
+      "question": "Q6(i–iv)",
+      "description": "Track a tin/lead cell's potential and concentrations as it operates.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 55,
+      "workflow": "W16",
+      "paper": "2022-May",
+      "question": "Q6(c)",
+      "description": "Use nonstandard silver/mercury concentrations to test spontaneity.",
+      "status": "Not solved",
+      "priority": false
+    },
+    {
+      "row": 56,
+      "workflow": "W17",
+      "paper": "2020-May",
+      "question": "Q3(a)",
+      "description": "Convert methanol solution molarity and density into molality.",
+      "status": "Not solved",
+      "priority": true
+    },
+    {
+      "row": 57,
+      "workflow": "W18",
+      "paper": "2020-May",
+      "question": "Q3(e)",
+      "description": "Explain the use and principle of recrystallization.",
+      "status": "Not solved",
+      "priority": true
+    }
+  ]
+}
